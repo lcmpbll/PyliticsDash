@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #151632;
+}
+
+.App {
+  display: flex;
+  position: relative;
+}
+
+.popUp {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  top: 0;
+  left: 0;
+}
+
+.OpportunityCard {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow-y: auto;
+  overflow-x: display;
+}
+
+.close-icon {
+  content: "x";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-right: auto;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 2px;
+  background: #ededed;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  text-align: center;
+
+  border: 1px solid #868dfb;
+  font-size: 24px;
+
+  overflow: visible;
+}
+
+.controlCenter {
+  position: relative;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  height: content;
+  border-radius: 4px;
+  padding: 4px;
+
+  justify-content: flex-end;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
